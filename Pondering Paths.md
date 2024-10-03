@@ -1,6 +1,6 @@
 # Position Elsewhere
 
-So this one required me to change my directory to the root directory and that was presented as "You are not currently in the / directory." I was pretty confused cause I thought it was an error that they left it blank after /. But I tried doing that anyway and got the flag after which Ashwin explained to me that they asked me to set it to the root directory.
+So this one required me to change my directory to the root directory and that was presented as "You are not currently in the / directory." I was pretty confused cause I thought it was an error that they left it blank after /. But I tried doing that anyway and got the flag after which it was explained to me that the challenge requires me to set it to the root directory.
 
 # Home Sweet Home
 
