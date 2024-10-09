@@ -70,7 +70,6 @@ yes-yes-yes-no-no
 echo yes-no | grep maybe
 
 ```
-<br>
 For the challenge I had to search for the flag in the output of ```/challenge/run``` so I used this command: ```/challenge/run | grep pwn``` and found the flag.
 #
 ### Grepping errors
