@@ -84,7 +84,8 @@ Example:
 echo hi whats up | tee echo_output | grep whats
 ```
 If I were to run ```cat echo_output``` I would be able to see the output of the first command which is "hi whats up" here. <br>
-For the challenge, I used the above logic to create a random file "search_flag" where the output of /challenge/run would be printed. <br>
+For the challenge, I used the above logic to create a random file "search_flag" where the output of /challenge/run would be printed. 
+<br> <br>
 ![WhatsApp Image 2024-10-09 at 13 39 47_902d7d84](https://github.com/user-attachments/assets/ee5f75e1-f719-4193-a5ff-7407cde0a2b7)
 #
 ### Writing to multiple programs
