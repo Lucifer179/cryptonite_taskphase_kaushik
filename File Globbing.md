@@ -37,5 +37,5 @@ All of this is to say that I basically overthought the hell out of it and it was
 #
 ## Exclusionary Globbing
 Gives all files except ones mentioned in the square brackets by adding a '^' to it. <br> 
-Example: ```ls [^abc]``` <br>
+Example: ```ls *[^abc]``` <br>
 For the challenge, I changed to the /challenge/files directory then ran  ```/challenge/run [^pwn]*```.
