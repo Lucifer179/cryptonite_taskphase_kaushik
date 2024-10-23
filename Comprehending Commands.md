@@ -1,5 +1,5 @@
 # Cat
-It is used for for reading out files
+It is used for reading out files
 ```
 cat file
 ```
