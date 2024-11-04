@@ -9,3 +9,5 @@ One of the hints provided in the challenge was that the flag may or may not be e
 Then I started thinking that there must be some other must be some other way to go about this and maybe I'm fixated on something that isn't even the flag. I went around to the other pages' code. My main goal was to find either something else that looked like an encoded flag or a hint. 
 
 Eventually, I circled back to what I found initially and put it into a decoding tool (since I had no idea how to decode it myself) and voila, I got the flag.
+
+The final flag after decoding was picoCTF{web_succ3ssfully_d3c0ded_df0da727}. 
