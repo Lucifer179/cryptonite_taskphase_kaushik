@@ -10,4 +10,4 @@ Then I started thinking that there must be some other must be some other way to 
 
 Eventually, I circled back to what I found initially and put it into a decoding tool (since I had no idea how to decode it myself) and voila, I got the flag.
 
-The final flag after decoding was picoCTF{web_succ3ssfully_d3c0ded_df0da727}. 
+The final flag after decoding was `picoCTF{web_succ3ssfully_d3c0ded_df0da727}`. 
