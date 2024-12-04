@@ -1,0 +1,7 @@
+For this challenge, I had to analyze alerts received by the SOC to figure out whether what was happening was a true positive or a false positive.
+
+I went onto the website and applied the filters and fields as required. By analyzing the traffic on December 1st from 0900 to 0930, we can see that someone ran a powershell command on 10 different machines which were preceded by a sucess in authentication on that machine, the source IP for all of these being the same.
+
+I then updated the timeframe to 29th November - 1st December to expand the search. Here, we can see that there thousands of failed attempts at authentication (6971 to be exact) from the same IP (10.0.255.1) until one finally worked. Following that, there were a few failed attempts from another IP (10.0.11.11) until it worked. This means that someone tried to bruteforce their way into these machines.
+
+We know now what was happening with the authentication but we still don't know what the commands being run onto these machines were. Powershell is generally encoded in base64 and in UTF-16LE charset. The decoded command is `Install-WindowsUpdate -AcceptAll -AutoReboot`. All the machines were being updated because they were outdated. 
