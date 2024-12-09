@@ -35,6 +35,8 @@ for (; i<32; i+=2) {
 
 From i=16 to i=30 in increments of 2 (so i=16, i=18,..., i=30) buffer positions, the `(46-i)+1`th positions are to be taken. The characters for each buffer position i = 16, 18,...,30 are `4, r, m, 4, u, 7, 9, 8`.
 
+I made the mistake of inputting each entry one after the other (as in 16, 17 and so on) instead of the increments of two for the actual buffer position as well here. Figured that out later and fixed it.
+
 ## 4th loop
 
 ```
