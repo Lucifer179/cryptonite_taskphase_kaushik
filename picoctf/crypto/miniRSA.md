@@ -10,7 +10,7 @@ ciphertext (c) = `22053164139311340310746037469282477990301552212525198726500730
 
 As seen above, the values of N and ciphertext are very large but the value of e is small. After reading up on RSA encryption, I understood that generally, in order to decode it, I would have to calculate m by the relation- 
 
-$ c = m^e \mod{n} $
+$` c = m^e \mod{n} `$
 
 which becomes very difficult to compute. 
 
