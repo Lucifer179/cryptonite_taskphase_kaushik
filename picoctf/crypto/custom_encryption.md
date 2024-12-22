@@ -76,7 +76,7 @@ def xor_decrypt(cipher_text, text_key):
         decrypted_text += decrypted_char 
     return decrypted_text
 ```
-so as to take the root as we take it to the power in the encryption process. However, this showed me an error when I ran the program. I spent a lot of time trying to figure out why this was since if say $ enc = num^{key} $ then $ num = enc^{1/key} $. Eventually, I just tried it with the power of it directly, which gave me a closer result - `e~r~TAFntdbczmJs#re%pa!uN/w4$q(&!h`. This still wasn't the flag in any way though so I went back to the drawing board to figure out what caused it to be that way. I removed the `[::-1]` part and that gave me the reversed flag. I left it in there hoping it would just reverse the flag and give it to me directly but it would seem it isn't that simple so I just reversed it myself.
+so as to take the root as we take it to the power in the encryption process. However, this showed me an error when I ran the program. I spent a lot of time trying to figure out why this was since if say $` enc = num^{key} `$ then $` num = enc^{1/key} `$. Eventually, I just tried it with the power of it directly, which gave me a closer result - `e~r~TAFntdbczmJs#re%pa!uN/w4$q(&!h`. This still wasn't the flag in any way though so I went back to the drawing board to figure out what caused it to be that way. I removed the `[::-1]` part and that gave me the reversed flag. I left it in there hoping it would just reverse the flag and give it to me directly but it would seem it isn't that simple so I just reversed it myself.
 
 Finally, the full `custom_decryption.py` code was 
 ```
