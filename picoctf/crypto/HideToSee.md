@@ -1,5 +1,6 @@
 ## Challenge
-
+"How about some hide and seek heh?"
+Hints: Download the image and try to extract it.
 
 ## Solve
 
