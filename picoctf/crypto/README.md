@@ -21,3 +21,12 @@ How are these keys generated? - Using two prime numbers i.e., say p and q.
 `d` (private decryption key) has to satisfy the condition - d*e % phi = 1
 
 - de mod phi = 1
+
+## Ciphers discovered
+
+1. RSA
+2. Atbash 
+3. Vigenere 
+4. Substitution
+5. Rail Fence 
+6. Cyclical Cipher 
