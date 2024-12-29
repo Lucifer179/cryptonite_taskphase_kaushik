@@ -20,7 +20,7 @@ How are these keys generated? - Using two prime numbers i.e., say p and q.
 
 `d` (private decryption key) has to satisfy the condition - d*e % phi = 1
 
-- de mod phi = 1
+- d*e = 1 mod(phi)
 
 ## Ciphers discovered
 
