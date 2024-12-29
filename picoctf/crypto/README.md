@@ -31,3 +31,4 @@ How are these keys generated? - Using two prime numbers i.e., say p and q.
 5. Rail Fence 
 6. Cyclical Cipher 
 7. Rotation/Shift Cipher - Example: Caesar cipher
+8. Transposition Cipher
