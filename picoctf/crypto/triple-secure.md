@@ -67,9 +67,9 @@ print(long_to_bytes(m))
 ```
 with manually changing the values of c, p and q each time. However, when I tried doing this, it not only proved to be really cumbersome but also didn't give me the right values.
 
-When that didn't work, I decided to draw up a code that would do the decrypting thrice for me. I first tried to find ways to take the output of the basic decrypt program I had earlier as the input for another set of values that it spits out but it was proving to be really complicated where I was defining many functions and it didn't give me the results needed.
+I decided to draw up a code that would do the decrypting thrice for me. I first tried to find ways to take the output of the basic decrypt program I had earlier as the input for another set of values that it spits out but it was proving to be really complicated where I was defining too many functions and it didn't give me the results needed.
 
-Following that, I did some research and found the concept of nesting functions that would work for this case. After a lot of trial and error on how to organize it, I managed to get the nesting right but I still wasn't getting the flag. 
+Following that, I did some research and found the concept of nesting functions that would work for this case. After a lot of trial and error on the syntax of it, I managed to get the nesting right but I still wasn't getting the flag. 
 
 I broke my head over that for a good while until I realized that the order of it could be the other way round. All this time I was solving it from n1 to n3 but it could very well be n3 to n1. Making that switch fixed it and I got the flag. In hindsight, that was probably why I didn't get the flag when I did it manually in the first place.
 
