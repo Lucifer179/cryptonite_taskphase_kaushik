@@ -10,7 +10,7 @@ Knowing this, I installed qsstv and figured the challenge was straightforward fr
 
 # QSSTV
 
-The process of feeding the WAV file given into qsstv was the most mind-numbing thing I've done. 
+The process of feeding the WAV file given into qsstv was the most mind-numbing thing I've ever done. 
 
 I first configured it to take audio from a file and tried inserting the `message.wav` file directly. The error "invalid header format" showed up so I started digging into the hex of the file. I went through the relevant header bytes and adjusted a few according to how they should be with respect to their file size. This process alone had taken me a while but I figured (once again) that after this, it should accept the file and I would be done. It did not accept the file and showed the same error still. 
 
