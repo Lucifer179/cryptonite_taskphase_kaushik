@@ -20,7 +20,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 ```
 
-I used `binwalk -e hideme.png` and got the files, went into the `secret` folder and looked at `flag.png` to get the flag.
+I used `binwalk -e hideme.png` and got the files, went into the `secret` folder and looked at `flag.png` to get the final flag.
 
 ## Flag
 
