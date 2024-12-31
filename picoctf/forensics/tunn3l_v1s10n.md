@@ -6,7 +6,7 @@
 
 The file is a bmp file that doesn't display the image. When I checked it with `file tunn3l_v1s10n`, I saw that it has data in it. I looked at it in a text editor and found a lot of gibberish. To pull out some meaningful data, I piped the strings in it into another file and tried to analyze and decipher it with base64 and shift cipher which didn't work. I spent a long time trying to figure out what else I could do. I tried using objdump but that didn't work cause that's generally used if it has executable binary data, which this didn't.
 
-Then I remembered that the reason for the image not showing up was that the header had an error, so there must be something I could do to fix that. I tried using exiftool to find the header size but it wasn't displaying that so to that end, I ran a python program that'll do it for me. I found that the DIB header size is 53434 bytes. To find the size of the header in the file, I needed to look at its hex.
+Then I remembered that the reason for the image not showing up was that the header had an error, so there must be something I could do to fix that. I tried using exiftool to find the header size but it wasn't displaying that so to that end, I ran a python program drawn up by chatgpt that'll do it for me. I found that the DIB header size is 53434 bytes. To find the size of the header in the file, I needed to look at its hex.
 
 ## The hex
 
