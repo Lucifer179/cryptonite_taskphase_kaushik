@@ -24,4 +24,4 @@ _Ah, now it's finally visible._ But the only part I can see is "notaflag{sorry}"
 
 ## Flag
 
-After accidentally changing the values too much and opening the file to see an abomination of my creation, I finally managed to come to a sweet spot with the values `6E 04 00 00 32 0A 00 00` and got the final flag - `picoCTF{qu1t3_a_v13w_2020}`.
+After accidentally changing the values too much and opening the file to see an abomination of my own creation, I finally managed to come to a sweet spot with the values `6E 04 00 00 32 0A 00 00` and got the final flag - `picoCTF{qu1t3_a_v13w_2020}`.
